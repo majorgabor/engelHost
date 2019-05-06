@@ -1,12 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138448020-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138448020-1');
+    </script>
+    <script src="javascripts/nav.js"></script>
+    <script src="javascripts/index.js"></script>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="stylesheets/responsive.css">
+    <link rel="stylesheet" href="stylesheets/theme.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Engel</title>
 </head>
+
 <body>
-    hello!
+    <nav class="topnav" id="res-nav" onBlur="console.log('asas')">
+        <a href="javascript:void(0);" class="menu-icon white" onclick="toggleMenu()"></a>
+        <div class=links>
+            <a class="active" href="#">Home</a>
+            <a href="/team">Team</a>
+        </div>
+        <hr class="no-desktop">
+        <div class="bookmarks" onclick="closeMenu()">
+            <a href="#learn-more">Learn More</a>
+            <a href="#statistic">See Statistic</a>
+            <a href="#contact-us">Get Yours</a>
+            <a href="#video">Watch Our Video</a>
+        </div>
+    </nav>
+    <section class="brand">
+        <div class="row">
+            <div class="col-6 text">
+                <div class="brand-name">ENGEL</div>
+                <div class="brand-slogen">Don't worry, Bike happy</div>
+                <div class="more-link">
+                    <a href="#learn-more">Learn More</a>
+                    <a href="#contact-us">Get Yours</a>
+                </div> 
+            </div>
+            <div class="col-6 logo">
+                <img class="brand-logo" src="images/logo.png">
+            </div>
+        </div>
+    </section>
+    <section class="introduction">
+        <span id="learn-more" class="anchor"></span>
+        <div class="section-title">
+            What is <span class="engel">ENGEL</span> ?
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <p class="slogen">Don't worry, Bike happy</p>
+                <p>means that we want you to ride safely and worry less about potential injuries.</p>
+                <p>Among all cyclists mountain bikers have the most injuries and fatalities. The art of the sport is to embrace risks and therefore 70% of all accidents occur without any collision. Phones break, injuries prohibit you to call for help or you simply don’t know your location.</p>
+                <p>Whatever the case, Engel is the solution. It’s a sophisticated electronic device robust and hidden inside your water bottle. More reliable than any smart phone or smart watch - it can detect a crash and report your location directly to emergency contacts you specify yourself. </p>
+                <p>Completely PHONE INDEPENDENT!</p>
+            </div>
+            <div class="col-4">
+                <img src="images/bottle.png">
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <span id="contact-us" class="anchor"></span>
+        <div class="row">
+            <div class="col-12">
+                <div class="email-title">
+                    Want to know more... 
+                    <br><br>
+                    Be the first to get an <span class="engel">ENGEL</span>
+                </div>
+                <form id="email-form">
+                    <input id="email" type="email" placeholder="Email" onkeyup="emailHandler()">
+                    <br>
+                    <input type="checkbox" id="gdpr" value="agree">
+                    <label>I accept the <a href="assets/Privacy Policy engel.pdf" target="_blank">privacy policy</a><span class="required">*</span></label>
+                    <br>
+                    <br>    
+                    <button disabled id="submit-btn" type="button" onclick="sendToAPI(event)">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <section class="statistic">
+        <span id="statistic" class="anchor"></span>
+        <div class="section-title">
+            Some numbers...
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="statistic-title">Riding</div>
+                    <a href="images/riding-with.png" target="_blank">
+                        <img src="images/riding-with.png">
+                    </a>
+                    <p>Mountain Bikers often ride alone. Despite the fun, an accident could be fatal. Imagine you break your ribs, spine or collar bone and smash your phone. Even if you are able to call for help, can you accurately describe your location? How long will it take for help to find you? Engel detects a crash and calls for help, even if you are unconscious. It calls help and sends your exact location.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="statistic-title">Injuries</div>
+                    <p>22% percent of all crashes result in major injuries. That’s a high percentage! Don’t be the 1 of 5 that have this problem. Don’t worry, bike happy, with Engel.</p>             
+                    <a href="images/injuries-diagramm.jpg" target="_blank">
+                        <img src="images/injuries-diagramm.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="statistic-title">Accidents</div>
+                    <a href="images/accident-diagramm.jpg" target="_blank">
+                        <img src="images/accident-diagramm.jpg">
+                    </a>
+                    <p>Accidents occur regularly, however in contrast to road bikers, mountain bike riders often fall without exterior cause. Everyone can be unlucky. Don’t take your chances, don’t get injured again. You don’t want to lay in hospital for weeks, just because you didn’t get the right help.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="video">
+        <span id="video" class="anchor"></span>
+        <div class="section-title">
+            Watch our video about the validation!
+        </div>
+        <div class="outer-wrapper">
+            <div class="video-wrapper">
+                <iframe src="https://player.vimeo.com/video/327973883" class="validation-video" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>    
+        </div>
+    </section>
+
+    <section class="sponsors">
+        <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/sul-logo.svg">
+                    </div>
+                </div>
+                <div class=col-4>
+                    <img src="images/eit-digital-logo.png">
+                </div>
+                <div class=col-4>
+                    <img src="images/unitn-logo.png">
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-4">
+                <div class="brand-name">
+                    ENGEL
+                </div>
+                <div class="footer-brand-text">
+                    <p>The IoT device which save your life.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="footer-title">
+                    Contacts Us
+                </div>
+                <ul class="footer-contacts">
+                    <li>engel.customer@outlook.com</li>
+                    <li>engelbikes@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <div class="footer-title">
+                    Page navigation
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#learn-more">Learn More</a></li>
+                    <li><a href="#statistic">See Statistic</a></li>
+                    <li><a href="#contact-us">Get Yours</a></li>
+                    <li><a href="#video">Watch Our Video</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copy-right">
+        Copyright 2019 - All Rights Reserved
+    </div>
+
+    <div id="cookie">
+        <div class="card">
+            <p>This site use cookies.</p>
+            <p><a href="">Learm more</a></p>
+            <button onclick="acknowledgeCookie()">Got it!</button>
+        </div>
+    </div>
 </body>
+<script src="javascripts/cookie.js"></script>
 </html>
