@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb8d9af6.chunk.css",
+    "main.js": "/static/js/main.90cd182a.chunk.js",
+    "main.js.map": "/static/js/main.90cd182a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.78d0bd02.chunk.js": "/static/js/2.78d0bd02.chunk.js",
+    "static/js/2.78d0bd02.chunk.js.map": "/static/js/2.78d0bd02.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7441098d5eb3172fe996782bc7bd52b3.js": "/precache-manifest.7441098d5eb3172fe996782bc7bd52b3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bb8d9af6.chunk.css.map": "/static/css/main.bb8d9af6.chunk.css.map",
+    "static/media/App.scss": "/static/media/whistler-bike-park.cb862b07.jpg",
+    "static/media/Team.jpg": "/static/media/Team.90660e19.jpg",
+    "static/media/accident-diagramm.jpg": "/static/media/accident-diagramm.2b23d51a.jpg",
+    "static/media/bottle.png": "/static/media/bottle.7f4a4bec.png",
+    "static/media/eit-digital-logo.png": "/static/media/eit-digital-logo.96f722f5.png",
+    "static/media/injuries-diagramm.jpg": "/static/media/injuries-diagramm.753be89c.jpg",
+    "static/media/logo.png": "/static/media/logo.e8de9c5a.png",
+    "static/media/riding-with.png": "/static/media/riding-with.83e0fd2b.png",
+    "static/media/sul-logo.svg": "/static/media/sul-logo.650eacfc.svg",
+    "static/media/unitn-logo.png": "/static/media/unitn-logo.cde082ab.png"
+  }
+}
