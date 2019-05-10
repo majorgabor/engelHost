@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e949a6073eacb488a867258429eea8d9",
+    "revision": "3575deaecce9d24ef3f6e78b9990424d",
     "url": "/index.html"
   },
   {
-    "revision": "7f0704f2cd5ceb9ee9b0",
-    "url": "/static/css/main.a7c3c9a4.chunk.css"
+    "revision": "0d1d006a7bed8883d4e5",
+    "url": "/static/css/main.0e1ef531.chunk.css"
   },
   {
     "revision": "c63657974a4e15ed59d7",
     "url": "/static/js/2.281c204e.chunk.js"
   },
   {
-    "revision": "7f0704f2cd5ceb9ee9b0",
-    "url": "/static/js/main.60ede9e2.chunk.js"
+    "revision": "0d1d006a7bed8883d4e5",
+    "url": "/static/js/main.c289834d.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "753be89c64653598cd065865ab0e8d4e",
     "url": "/static/media/injuries-diagramm.753be89c.jpg"
+  },
+  {
+    "revision": "3d66b1db43f784d19a7812213fb6b71f",
+    "url": "/static/media/landing-back.3d66b1db.jpeg"
   },
   {
     "revision": "e8de9c5a2bb45add018824a573de3015",
