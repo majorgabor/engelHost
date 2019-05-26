@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8f2a3501561c8718b3c65cecbe50d39",
+    "revision": "f5308c59a8104242b88bbe9f1f6844fa",
     "url": "/index.html"
   },
   {
-    "revision": "372201c71ee005981537",
+    "revision": "800946f85c0ccb082ecc",
     "url": "/static/css/main.0c9e4be8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.320aa8bd.chunk.js"
   },
   {
-    "revision": "372201c71ee005981537",
-    "url": "/static/js/main.a6c89b42.chunk.js"
+    "revision": "800946f85c0ccb082ecc",
+    "url": "/static/js/main.dd1ff407.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bottle.897c4771.png"
   },
   {
+    "revision": "cfe55eaee337b8732966ce488d2e20ae",
+    "url": "/static/media/clab-trento-logo.cfe55eae.png"
+  },
+  {
     "revision": "63721008a2e8a2640b21a3b2bc6b0550",
     "url": "/static/media/cover.63721008.jpeg"
   },
@@ -86,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83e0fd2b166a9620438b644e218202ac",
     "url": "/static/media/riding-with.83e0fd2b.png"
-  },
-  {
-    "revision": "650eacfcab5d9eb3375bf7edec43df2e",
-    "url": "/static/media/sul-logo.650eacfc.svg"
   },
   {
     "revision": "cde082abcc158cb25139602a4bee1c7c",
